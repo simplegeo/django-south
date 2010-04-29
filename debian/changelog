@@ -1,0 +1,36 @@
+python-django-south (0.7-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #576502)
+
+ -- David Watson <david@kutoken.com>  Thu, 29 Apr 2010 20:13:56 +0100
+
+python-django-south (0.7~rc1-1) experimental; urgency=low
+
+  * New upstream release
+  * Updated Standards version, no changes needed
+
+ -- David Watson <david@kutoken.com>  Mon, 22 Mar 2010 11:19:30 +0000
+
+python-django-south (0.6.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Watson <david@kutoken.com>  Fri, 05 Feb 2010 15:09:59 +0000
+
+python-django-south (0.6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Watson <david@kutoken.com>  Thu, 20 Aug 2009 14:13:41 +0100
+
+python-django-south (0.5-2) unstable; urgency=low
+
+  * Add python-setuptools to Build-Depends (Closes: #527821)
+
+ -- David Watson <david@kutoken.com>  Fri, 08 May 2009 22:43:41 +0100
+
+python-django-south (0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #526348, #527328)
+
+ -- David Watson <david@kutoken.com>  Thu, 02 May 2009 09:56:35 +0100

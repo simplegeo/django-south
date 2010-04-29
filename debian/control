@@ -1,0 +1,24 @@
+Source: python-django-south
+Section: python
+Priority: optional
+Maintainer: David Watson <david@kutoken.com>
+Uploaders: David Watson <dwatson@debian.org>
+Build-Depends: debhelper (>= 7), python-support, python-setuptools
+Standards-Version: 3.8.4
+Homepage: http://south.aeracode.org/
+
+Package: python-django-south
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-django (>= 1.0.2)
+Description: Intelligent schema migrations for django apps
+ An intelligent database migrations library for the Django web framework.
+ It is database-independent and DVCS-friendly, as well as a whole host of
+ other features.
+ .
+  * Intelligent; it knows if you've missed out a migration or two
+  * Database independent, so there's no hassle if you need to move databases.
+  * Easy; it can write migrations for you, and it takes about a minute to
+    convert your app over to use South.
+  * Designed for a pluggable Django world; you can declare dependencies
+    between apps so they all migrate together correctly, and you can
+    still use syncdb for your non-migrated apps without it interfering.
