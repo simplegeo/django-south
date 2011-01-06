@@ -1,8 +1,8 @@
 Source: python-django-south
 Section: python
 Priority: optional
-Maintainer: David Watson <david@kutoken.com>
-Uploaders: David Watson <dwatson@debian.org>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Uploaders: David Watson <dwatson@debian.org>, Ian Eure <ian@simplegeo.com>
 Build-Depends: debhelper (>= 7), python-support, python-setuptools
 Standards-Version: 3.8.4
 Homepage: http://south.aeracode.org/
